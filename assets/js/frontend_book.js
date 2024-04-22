@@ -130,7 +130,8 @@ window.FrontendBook = window.FrontendBook || {};
             }
         });
 
-        $('#select-timezone').val(Intl.DateTimeFormat().resolvedOptions().timeZone);
+        //$('#select-timezone').val(Intl.DateTimeFormat().resolvedOptions().timeZone);
+        $('#select-timezone').val('Asia/Aqtobe');
 
         // Bind the event handlers (might not be necessary every time we use this class).
         if (defaultEventHandlers) {
